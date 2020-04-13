@@ -1,1 +1,1 @@
-# Polynomial Curve Fitting
+# Ajuste de Curva Polinomial
