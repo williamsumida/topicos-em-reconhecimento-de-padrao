@@ -1,0 +1,5 @@
+Introducao ao Reconhecimento de Padroes
+Objetivo do texto:
+    - Explicar todo o processo de analise dos dados (pipeline)
+    - Mostrar problemas 
+    - Explicar diferenca de ML, IA e reconhecimento de padroes

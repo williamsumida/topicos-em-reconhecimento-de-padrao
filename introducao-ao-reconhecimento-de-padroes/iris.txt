@@ -1,0 +1,16 @@
+Atributos:
+    - Comprimento da sepala
+    - Comprimento da petala
+    - Largura da sepala
+    - Largura da petala
+
+Classe
+    - Especie
+
+setosa é bem definida
+    sepal.len   x  petal.width
+    sepal.width x  petal.width
+    petal.len   x  petal.width
+    sepal.len   x  petal.len
+    sepal.width x  petal.len
+    sepal.len   x  sepal.width
