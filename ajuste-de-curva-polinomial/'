@@ -24,20 +24,20 @@ print(data)
 deaths = data["deaths"]
 train, test = get_datasets(deaths)
 
-plt.scatter(train['x'], train['y'])
+print(train)
+print(test)
+
+curve = np.polyfit(x, deaths, 90)
+print('curve: ', curve)
+
+poly = np.poly1d(curve)
+final_y = []
+for i in range(96):
+    final_y.append(poly(i))
+
+plt.scatter(x, final_y)
 plt.show()
 
-plt.scatter(test['x'], test['y'])
-plt.show()
-
-
-#curve = np.polyfit(x, deaths, 90)
-#print('curve: ', curve)
-
-#poly = np.poly1d(curve)
-#final_y = []
-#for i in range(96):
-#    final_y.append(poly(i))
 
 
 
