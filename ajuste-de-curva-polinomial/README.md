@@ -7,6 +7,7 @@ f(x) = sin(2xPI)
 Overfitting: quando a curva do modelo acerta todos os dados de treino, porem possui uma ma representacao da funcao f(x)
 
 
+
 ## Atividade Pratica
 Funcao para separar os dados em treino e teste
 ```python
@@ -25,3 +26,9 @@ def get_datasets(data):
     test['y'].reverse()
     return train, test
 ```
+maior erro = 8?
+
+Opcao para Hold-Out: Kennard-Stone
+    pega as amostras mais representativas
+
+
